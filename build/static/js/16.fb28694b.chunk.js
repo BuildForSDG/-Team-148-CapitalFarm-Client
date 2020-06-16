@@ -1,0 +1,2 @@
+(this["webpackJsonpcapital-farm-client"]=this["webpackJsonpcapital-farm-client"]||[]).push([[16],{426:function(e,t,a){"use strict";a.r(t);var n=a(0),c=a.n(n),s=a(19);class l extends n.Component{render(){const e=this.props.children||null;return c.a.createElement(n.Suspense,{fallback:c.a.createElement("div",{className:"text-center"})},e)}}t.default=Object(s.b)()(l)}}]);
+//# sourceMappingURL=16.fb28694b.chunk.js.map
