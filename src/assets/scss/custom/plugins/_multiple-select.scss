@@ -1,16 +1,13 @@
 //
 // multi-select.scss
 //
-
 .ms-container {
     background: transparent url('../../../images/plugin/multiple-arrow.png') no-repeat 50% 50%;
     width: auto;
     max-width: 370px;
-    
     .ms-list {
         box-shadow: none;
         border: $input-border-width solid $input-border-color;
-
         &.ms-focus {
             box-shadow: none;
             border: $input-border-width solid $input-focus-border-color;
@@ -32,7 +29,7 @@
     }
     .ms-selection {
         background-color: $input-bg;
-        li{
+        li {
             &.ms-elem-selection {
                 border: none;
                 padding: 5px 10px;

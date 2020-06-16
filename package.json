@@ -2,12 +2,7 @@
     "name": "capital-farm-client",
     "version": "0.0.1",
     "description": "Capital Farm Client (CFC) is a portal for Food Producers, Farmers, Farm Equipment and Products Sellers or Leasers, Food Products Market Players, Land Owners, and Investors. The portal provides a central point where food producers can find all in one service and products to improve and increase production, expedite and grow their food production business.",
-    "keywords": [
-        "CapitalFarm Client",
-        "farming",
-        "food production",
-        "investor"
-    ],
+    "keywords": ["CapitalFarm Client", "farming", "food production", "investor"],
     "private": false,
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -15,17 +10,16 @@
         "test": "__tests__"
     },
     "scripts": {
-        "test": "jest",
-        "test:watch": "jest --watch",
-        "test:cover": "jest --coverage",
-        "lint": "eslint \"src/**/*.js\"",
-        "start": "parcel ./src/index.html"
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
     },
     "author": {
         "name": "Build For SDG - Team 148",
         "email": "buildforsdg@andela.com"
     },
-    "homepage": "https://github.com/BuildForSDG/Team-148-CapitalFarm-Client#readme",
+    "homepage": "/",
     "repository": {
         "type": "git",
         "url": "https://github.com/BuildForSDG/Team-148-CapitalFarm-Client.git"
@@ -80,17 +74,12 @@
     "devDependencies": {
         "@babel/core": "^7.9.0",
         "@babel/preset-env": "^7.9.5",
-        "babel-jest": "^25.4.0",
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.1.0",
-        "eslint-plugin-import": "^2.20.2",
-        "jest": "^25.4.0",
-        "parcel-bundler": "^1.12.4"
+        "eslint-plugin-import": "^2.20.2"
     },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
